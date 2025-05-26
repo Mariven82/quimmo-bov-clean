@@ -1,0 +1,22 @@
+
+GUIDA - Come pubblicare la Web App Quimmo su Streamlit Cloud
+
+1. Crea un account gratuito su https://streamlit.io
+   - Puoi usare il login con Google o GitHub
+
+2. Crea un account GitHub (se non ne hai uno) su https://github.com
+
+3. Vai su GitHub e crea un nuovo repository (es. quimmo-bov-app)
+   - Clicca su "Add file" > "Upload files"
+   - Carica i file: app.py, bov_generator.py e bov_template.docx dal pacchetto ricevuto
+   - Fai "Commit changes"
+
+4. Torna su https://share.streamlit.io
+   - Clicca su "New app"
+   - Seleziona il repository GitHub che hai appena creato
+   - Indica come file principale: `app.py`
+   - Clicca su "Deploy"
+
+5. Dopo pochi secondi la tua app sarà pubblica e pronta da usare.
+
+6. Per condividerla, copia il link e invialo ai tuoi colleghi o aggiungilo ai preferiti.
